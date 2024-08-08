@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    position: fixed;
+}
+.main{
+background-color: red;
+width: 100%;
+display: flex;
+}
+.sidebar{
+    width: 10%;
+    height: 720px;
+    background-color: yellow;
+    position: fixed;
+    top: 50px;
+}
+.videopllist{
+
+    width: 90%;
+    height: 720px;
+    background-color:green;
+    margin-top: 50px;
+    margin-left:10%;
+}
+.intrestbar{
+ height: 50px;
+ width: 100%;
+ background-color: orangered;
+ position: fixed;
+}
+.videoscbar{
+    margin-top: 50px;
+    padding-top: 20px;
+    width:fit-content;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.videocard{
+    height: 250px;
+    width: 250px;
+    background-color:beige;
+}
